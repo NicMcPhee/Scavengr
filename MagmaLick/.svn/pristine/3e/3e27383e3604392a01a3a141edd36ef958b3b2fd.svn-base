@@ -1,0 +1,126 @@
+default.doesnt.match.message=Property "{0}" of class "{1}" with value "{2}" does not match the required pattern "{3}"
+default.invalid.url.message=Property "{0}" of class "{1}" with value "{2}" is not a valid URL
+default.invalid.creditCard.message=Property "{0}" of class "{1}" with value "{2}" is not a valid credit card number
+default.invalid.email.message="{2}" is not a valid e-mail address
+default.invalid.range.message="{2}" does not fall within the valid range from {3} to {4}
+default.invalid.size.message= "{2}" does not fall within the valid size range from {3} to {4}
+default.invalid.max.message="{2}" exceeds maximum value "{3}"
+default.invalid.min.message="{2}" is less than minimum value {3}
+default.invalid.max.size.message={0} must be no more than {3} characters long
+default.invalid.min.size.message={0} must be at least {3} characters long
+#default.invalid.validator.message=The day the hunt opens should be before the day it ends. Time traveling is for cheaters!
+default.not.inlist.message=Property "{0}" of class "{1}" with value "{2}" is not contained within the list "{3}"
+default.blank.message=Property "{0}" cannot be blank
+default.not.equal.message=Property "{0}" of class "{1}" with value "{2}" cannot equal "{3}"
+default.null.message=Property "{0}" of class "{1}" cannot be null
+default.not.unique.message=Property "{0}" of class "{1}" with value "{2}" must be unique
+
+
+#Custom Messages
+scavengr.invalid.passwordConfirm = Passwords did not match.
+scavengr.invalid.email.message = Invalid email address.
+#Error Messages
+
+#Hunt
+#Blank
+scavengr.Hunt.title.blank= Hey! You have to enter a {0} for your hunt!
+scavengr.Hunt.description.blank= You need to put something in the {0} so other people and yourself know what your hunt is about!
+scavengr.Hunt.key.blank= Hey! You need a special {0} to open your hunt!
+#Nullable
+scavengr.Hunt.myCreator.nullable= Please let us know who made this hunt. "user should never see this, they will be logged in"
+scavengr.Hunt.startDate.nullable=Please enter a start date.
+scavengr.Hunt.endDate.nullable=Please enter an end date.
+scavengr.Hunt.key.nullable=Please enter a key.
+#Size
+scavengr.Hunt.title.maxSize.exceeded=The title entered exceeds 23 characters.
+scavengr.Hunt.description.maxSize.exceeded=The description exceeds 250 characters.
+#Unique
+scavengr.Hunt.key.unique=This key is already in use. Please enter a new key.
+#Validator
+scavengr.Hunt.endDate.validator.invalid=The end time of the hunt must occur after the start time. Time traveling is for cheaters!
+scavengr.Hunt.emails.validator.invalid=One or more email addresses in the list are invalid. Please verify all email addresses.
+
+#Photo
+#Nullable
+scavengr.Photo.myFile.nullable= Please pick a picture you'd like to upload.
+scavengr.Photo.myPrompt.nullable= Please pick a prompt for this photo. "user should never see this, they will upload to prompts"
+#Size
+scavengr.Photo.title.maxSize.exceeded=The title entered exceeds 22 characters.
+scavengr.Photo.description.maxSize.exceeded=The description entered exceeds 250 characters.
+scavengr.Photo.myFile.size.toosmall=Please upload a photo.
+scavengr.Photo.myFile.size.toobig=The photo uploaded exceeds size limit. Please upload a different photo.
+
+#Prompt
+#Blank
+scavengr.Prompt.title.blank= Please put a {0} for the prompt you created.
+#Nullable
+scavengr.Prompt.myHunt.nullable= Please choose what hunt this prompt belongs to!
+#Size
+scavengr.Prompt.title.maxSize.exceeded=The title entered exceeds 23 characters.
+scavengr.Prompt.description.maxSize.exceeded=The description entered exceeds 250 characters.
+
+#User
+#Blank
+scavengr.User.login.blank= We don't operate for strangers... please tell us what we should call you!
+#Email
+scavengr.User.email.email.invalid=This is not a valid email address.
+#Size
+scavengr.User.login.maxSize.exceeded=The username entered exceeds 30 characters. I asked for a name, not your life story.
+scavengr.User.email.maxSize.exceeded=The email entered exceeds 250 characters. Are you serious? What is your problem?
+scavengr.User.password.maxSize.exceeded=The password entered exceeds 100 characters. While I applaud your consciousness of security, please reign it in a little.
+scavengr.User.password.minSize.notmet=The password entered falls below 6 characters. Do you want to be hacked?
+
+#Miscellaneous Messages
+
+#Hunt
+scavengr.Hunt.created.label=You have created a hunt! Emails have been sent to your participants with a link.
+scavengr.Hunt.updated.message=Hunt updated!
+
+#Photo
+scavengr.Photo.show.label={0}
+scavengr.Photo.created.message=Photo successfully uploaded.
+scavengr.Photo.updated.message=Photo successfully updated.
+
+#User
+scavengr.User.created.label=Welcome to Scavengr! You now have an account.
+
+
+default.paginate.prev=Previous
+default.paginate.next=Next
+default.boolean.true=True
+default.boolean.false=False
+default.date.format=yyyy-MM-dd HH:mm:ss z
+default.number.format=0
+
+default.created.message={0} {1} created
+default.updated.message={0} {1} updated
+default.deleted.message={0} {1} deleted
+default.not.deleted.message={0} {1} could not be deleted
+default.not.found.message={0} not found with id {1}
+default.optimistic.locking.failure=Another user has updated this {0} while you were editing
+
+default.home.label=Home
+default.list.label={0} List
+default.add.label=Add {0}
+default.new.label=New {0}
+default.create.label=Create {0}
+default.show.label=Show {0}
+default.edit.label=Edit {0}
+
+default.button.create.label=Create
+default.button.edit.label=Edit
+default.button.update.label=Update
+default.button.delete.label=Delete
+default.button.delete.confirm.message=Are you sure?
+default.button.cancel.label=Cancel
+
+# Data binding errors. Use "typeMismatch.$className.$propertyName to customize (eg typeMismatch.Book.author)
+typeMismatch.java.net.URL=Property {0} must be a valid URL
+typeMismatch.java.net.URI=Property {0} must be a valid URI
+typeMismatch.java.util.Date=Property {0} must be a valid Date
+typeMismatch.java.lang.Double=Property {0} must be a valid number
+typeMismatch.java.lang.Integer=Property {0} must be a valid number
+typeMismatch.java.lang.Long=Property {0} must be a valid number
+typeMismatch.java.lang.Short=Property {0} must be a valid number
+typeMismatch.java.math.BigDecimal=Property {0} must be a valid number
+typeMismatch.java.math.BigInteger=Property {0} must be a valid number

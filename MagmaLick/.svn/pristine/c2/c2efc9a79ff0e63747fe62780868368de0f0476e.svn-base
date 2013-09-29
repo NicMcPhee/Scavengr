@@ -1,0 +1,459 @@
+body {
+	-webkit-text-size-adjust: none;
+}
+
+.notification-window {
+	min-width:320px;
+	position:fixed;
+}
+.notification-window .popover-content{
+	max-height:600px;
+	overflow:auto;
+}
+
+.notification{
+	padding-top:5px;
+	padding-left:14px;
+	padding-right:14px;
+}
+
+.row-fluid ul.thumbnails li.span12 + li { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span6:nth-child(2n + 3) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span4:nth-child(3n + 4) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span3:nth-child(4n + 5) { margin-left : 0px; clear:left}
+.row-fluid ul.thumbnails li.span2:nth-child(6n + 7) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span1:nth-child(12n + 13) { margin-left : 0px;clear:left }
+
+ul a{
+	text-decoration:none !important;
+}
+.frontpage{
+	text-align:center;
+}
+.slider{
+	max-width:210px;
+}
+.slider input{
+	max-width:90%;
+}
+.frontpage-btn {
+	margin-top:20px;
+	margin-right:10px;
+	margin-left:10px;
+	text-align:center;
+	min-width:210px;
+	max-width:250px;
+	min-height:226px;
+
+}
+.frontpage-btn h2{
+	letter-spacing:-1px
+}
+
+.frontpage-btn h2{
+	color: inherit;
+}
+.create-icon-search{
+	font-size:150px;
+	opacity:1 !important;
+	position:relative;
+}
+.create-icon-star{
+	font-size:60px;
+	opacity:1 !important;
+	position:absolute;
+	top:40px;
+	right:52px;
+}
+.join-icon-camera{
+	top:10px;
+	font-size:140px;
+	opacity:1 !important;
+	position:relative;
+}
+.join-icon-circle{
+	position:absolute;
+	font-size:60px;
+	opacity:1 !important;
+	top: 45px;
+	right:50px;
+	color:#03407B;
+}
+
+.join-icon-globe{
+	position:absolute;
+	font-size:60px;
+	opacity:1 !important;
+	top: 45px;
+	right:50px;
+}
+.login-icon{
+	position:relative;
+	font-size:140px;
+	opacity:1 !important;
+	top:10px;
+}
+
+.prompt-row {
+	padding-top:8px;
+	paddong-bottom:8px;
+}
+.frontpage-form{
+	padding-bottom:10px;
+}
+.btn-prompt {
+	display:block;
+	padding-top: 10px;
+	font-size: 32px;
+	min-height: 55px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+input, textarea{
+	max-width:100%;
+}
+.user-photo {
+	pointer-events:none;
+	position:absolute;
+	left:40px;
+	top:35px;
+	font-size:32pt;
+}
+
+.remove-photo {
+	position:absolute;
+	left:150px;
+	font-size:32pt;
+	text-decoration: none !important;
+}
+.remove-photo a {
+	
+}
+.big-button h2 {
+	color: #555555;
+}
+
+.big-button a {
+	text-decoration: none;
+}
+
+.big-button p {
+	text-align: center;
+	font-size: 16px;
+}
+/*firefox*/
+@-moz-document url-prefix() {
+	.frontpage-btn h2{
+		letter-spacing:-2px
+	}
+    .create-icon-star{
+		right:90px;
+	}
+	.join-icon-circle{
+		right:85px;
+	}
+	.join-icon-globe{
+		right:85px;
+	}
+}
+
+/* Jumbotrons
+-------------------------------------------------- */
+
+/* Base class
+------------------------- */
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  margin-top:-20px;
+  margin-bottom:20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #1C5081; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #1C5081 0%, #033668 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1C5081), color-stop(100%,#033668)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #1C5081 0%,#033668 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #1C5081 0%,#033668 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #1C5081 0%,#033668 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #1C5081 0%,#033668 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C5081', endColorstr='#033668',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #fff;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+
+
+
+
+
+/* Masthead (docs home)
+------------------------- */
+.masthead {
+  padding: 70px 0 80px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.masthead h1 {
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.masthead p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.25;
+}
+
+/* Textual links in masthead */
+.masthead-links {
+  margin: 0;
+  list-style: none;
+}
+.masthead-links li {
+  display: inline;
+  padding: 0 10px;
+  color: rgba(255,255,255,.25);
+}
+
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+  /* Unfloat brand */
+  body > .navbar-fixed-top .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Inline-block quick links for more spacing */
+  .quick-links li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  /* When affixed, space properly */
+  .bs-docs-sidenav {
+    top: 0;
+    width: 218px;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .bs-docs-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .bs-docs-sidenav.affix {
+    top: 0;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+	
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    padding: 40px 20px;
+    margin-top:   -20px; /* Offset bottom margin on .navbar */
+    margin-right: -20px;
+    margin-left:  -20px;
+  }
+  .masthead h1 {
+    font-size: 90px;
+  }
+  .masthead p,
+  .masthead .btn {
+    font-size: 24px;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
+  }
+
+  /* Change up some type stuff */
+  h2 small {
+    display: block;
+  }
+
+  /* Downsize the jumbotrons */
+  .jumbotron h1 {
+    font-size: 45px;
+  }
+  .jumbotron p,
+  .jumbotron .btn {
+    font-size: 18px;
+  }
+  .jumbotron .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* center align subhead text like the masthead */
+  .subhead h1,
+  .subhead p {
+    text-align: center;
+  }
+}
+  
+@media (min-width:980px) {
+	body { 
+		padding-top: 60px; 
+	}
+}
+
+.btn {
+	vertical-align: middle; /* ensure buttons line up even when they are different tag types [a, button] */
+}
+
+/* index page */
+
+img#github-ribbon {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+	z-index: 1030; /* no idea where this comes from, lowest value that works */
+}
+
+@media (max-width: 768px) {
+	/* prevent the brand name wrapping or overlapping the menu toggle */
+	.navbar .brand {
+		max-width: 75%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	
+	.hero-unit {
+		padding: 20px;
+	}
+
+	#application-status {
+		display: none;
+	}
+}
+
+/* list pages */
+
+table td.link {
+	white-space: nowrap;
+}
+
+table thead th {
+	white-space: nowrap;
+}
+
+/* icons for sorted column headers */
+
+table th.asc a:after,
+table th.desc a:after {
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-left: 0.3em;
+	vertical-align: text-top;
+	background-image: url(../plugins/twitter-bootstrap-2.1.1/img/glyphicons-halflings.png);
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+
+table th.asc a:after {
+	background-position: -289px -96px;
+}
+
+table th.desc a:after {
+	background-position: -312px -96px;
+}
+
+/* optimized display for small devices */
+
+@media (max-width:480px) {
+	table thead, table td { 
+		display: none;
+	}
+	
+	table tr:first-child td {
+		border-top: none;
+	}
+	
+	table td:first-child, table td:last-child {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	table td:last-child {
+		text-align: right;
+	}
+}
+
+/* error page */
+
+pre.snippet code.line {
+	border: none;
+	display: block;
+}
+
+pre.snippet .lineNumber {
+	display: inline-block;
+	width: 3em;
+}
+
+pre.snippet .error {
+	font-weight: bold;
+}
