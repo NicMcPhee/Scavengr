@@ -3,7 +3,7 @@
 
 # Scavengr!
 
-<img src= "https://raw.github.com/Paul-Schliep/Scavengr/ScreenShots/Scavengr1.png" title="Scavengr Home Page" />
+<img src= "https://raw.github.com/Paul-Schliep/Scavengr/master/ScreenShots/Scavengr1.png" title="Scavengr Home Page" />
 
 ## About The Project
 
@@ -27,13 +27,13 @@ Scavengr was mostly made with Groovy/Grails with some additions to the javascrip
 
 ## Screen Shots
 
-<img src= "https://raw.github.com/Paul-Schliep/Scavengr/ScreenShots/Scavengr2.png" title="Hunt Creation Page" />
+<img src= "https://raw.github.com/Paul-Schliep/Scavengr/master/ScreenShots/Scavengr2.png" title="Hunt Creation Page" />
 
-<img src= "https://raw.github.com/Paul-Schliep/Scavengr/ScreenShots/Scavengr6.png" title="Upload with a Smartphone" />
+<img src= "https://raw.github.com/Paul-Schliep/Scavengr/master/ScreenShots/Scavengr6.png" title="Upload with a Smartphone" />
 
-<img src= "https://raw.github.com/Paul-Schliep/Scavengr/ScreenShots/Scavengr4.png" title= "Photo Hunt Page" />
+<img src= "https://raw.github.com/Paul-Schliep/Scavengr/master/ScreenShots/Scavengr4.png" title= "Photo Hunt Page" />
 
-<img src= "https://raw.github.com/Paul-Schliep/Scavengr/ScreenShots/Scavengr7.png" title= "Photo Edit Page" />
+<img src= "https://raw.github.com/Paul-Schliep/Scavengr/master/ScreenShots/Scavengr7.png" title= "Photo Edit Page" />
 
 ## Contact
 
